@@ -1,11 +1,11 @@
-package thuytrinh.inflatingtoolbarmenu.app2
+package thuytrinh.inflatingtoolbarmenu.app1
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : AppCompatActivity() {
+class App1Activity : AppCompatActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
-    setContentView(R.layout.activity_main)
+    setContentView(R.layout.activity_app1)
   }
 }
